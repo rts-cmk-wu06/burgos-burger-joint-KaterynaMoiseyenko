@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Nunito Sans, sans-serif;
+    font-size: 20px;
+    
+    
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+}

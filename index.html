@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="da">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/header.css">
+    <link rel="stylesheet" href="style/footer.css">
+    <link rel="stylesheet" href="style/hero.css">
+    <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/kontakt_form.css">
+    <link rel="stylesheet" href="style/servers.css">
+    <link rel="stylesheet" href="style/gallery.css">
+    <link rel="stylesheet" href="https://fonts.google.com/specimen/Nunito+Sans?query=Nunito+Sans">
+    <title>Burgos Burger</title>
+</head>
+<body>
+    <!--Hero-->
+    <div class="hero-image"><img src="/image/hero01.jpg" alt="Burger">
+
+            <!-- Header-->
+    <header class="header">
+        <div class="firkant"></div>
+        <div class="logoheader">
+            <img src="image/burger_ikon@2x.png" alt="Burger logo">
+            <li class="nav__li"><a href="#" target="_blank">Burgos</a></li>
+        </div>
+        <nav class="nav">
+            <ul class="nav__ul">
+                <li class="nav__li"><a href="#" target="_blank">Home</a></li>
+                <li class="nav__li"><a href="#" target="_blank">Galleri</a></li>
+                <li class="nav__li"><a href="#" target="_blank">Anbefalede</a></li>
+                <li class="nav__li"><a href="#" target="_blank">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+        <div class="hero-text">
+            <h1>Vælg Din Favorit Yummy</h1>
+            <button>START</button>
+       </div>
+       </div>
+    
+    <!--Main-->
+    <main class="container">
+        <section class="reklame">
+            <img src="/image/reklame01.jpg" alt="">
+            <h2 class="reklame__h2">-20% Sommer-Tilbud</h2>
+            <p class="reklame__p">Quisque nec libero ut sapien dictum commodo. 
+                Nam ac felis id libero rutrum pharetra eu non lacus</p>
+        </section>
+
+    </main>
+    <!--Gallery-->
+    <div class="gallery">
+            
+            
+            <div class="container">
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <img id="expandedImg" style="width:100%">
+                <div id="imgtext"></div>
+            </div>
+
+            <div class="row">
+                <div class="column">
+                <img src="image/galleri05.jpg" alt="Burger" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                <img src="image/galleri06.jpg" alt="Burger" style="width:100%" onclick="myFunction(this);">
+                </div>
+                <div class="column">
+                <img src="image/galleri04.jpg" alt="Burger" style="width:100%" onclick="myFunction(this);">
+                </div>
+            </div>
+
+         <article class="article">
+             <h2 class="article__h2">
+                Vores YUMMY opskrift 
+             </h2>
+             <p class="article__p">
+                Lorem Ipsum is simply dummy text of the printing and typesetting 
+                industry. Lorem Ipsum has been the industry's standard dummy text 
+                ever since the 1500s, when an unknown printer took a galley of type 
+                and scrambled it to make a type specimen book. It has survived not 
+                only five centuries, but also the leap into electronic typesetting, 
+                remaining essentially unchanged. It was popularised in the 1960s with 
+                the release of Letraset sheets containing Lorem Ipsum passages, and 
+                more recently with desktop publishing software like Aldus PageMaker 
+                including versions of Lorem Ipsum.
+
+                Lorem Ipsum is simply dummy text of the printing and typesetting 
+                industry. Lorem Ipsum has been the industry's standard dummy text 
+                ever since the 1500s, when an unknown printer took a galley of type 
+                and scrambled it to make a type specimen book. It has survived not 
+                only five centuries, but also the leap into 
+             </p>
+         </article>
+            
+    </div>
+
+    <!--Servers-->
+          <h2 class="servers__h2">
+                Anbefalede yummies
+          </h2>
+    <div class="servers">
+        
+        <section class="servers__kort">
+            <img src="image/favorit01.jpg" alt="">
+            <h4>Grilled Burger</h4>
+            <p>65kr.</p>
+            <p>Favorit</p>
+        </section>
+        <section class="servers__kort">
+            <img src="image/favorit02.jpg" alt="">
+            <h4>Grilled Burger</h4>
+            <p>65kr.</p>
+            <p>Favorit</p>
+        </section>
+        <section class="servers__kort">
+            <img src="image/favorit03.jpg" alt="">
+            <h4>Grilled Burger</h4>
+            <p>65kr.</p>
+            <p>Favorit</p>
+        </section>
+        <section class="servers__kort">
+            <img src="image/favorit04.jpg" alt="">
+            <h4>Grilled Burger</h4>
+            <p>65kr.</p>
+            <p>Favorit</p>
+        </section>
+    </div>
+
+
+    <!--Kontakt Formular-->
+
+    <div class="kontakt">
+        <div class="kontakt__h2">
+            <h2>Kontakt</h2>
+        </div>
+        <form class="form" id="form">
+            <div class="input">
+                <input id="navn" type="text" placeholder="navn">
+                <input id="email" type="email" placeholder="email">
+            </div> 
+            <div class="textarea"> 
+                <textarea name="textarea" id="textarea" cols="47" rows="10" placeholder="Skriv din besked her"></textarea>
+            </div>      
+            <div class="button">
+                <button>Submit</button>
+            </div>
+        </form>
+        
+    </div>
+    
+     <!--Footer-->
+
+
+    <footer class="footer">
+         <div class="footer__image">
+             <img src="image/footer01.png" alt="burger">
+         </div>
+         <div class="footer__social">
+             <h2>FØLG OS PÅ INSTAGRAM</h2>
+             <img src="/image/Icon.png" alt="circle">
+             <a href="instagramm.com">@BURGOS_YUMMIES</a>
+         </div>
+    </footer>
+
+    <script src="/script/script.js"></script>
+</body>
+</html>

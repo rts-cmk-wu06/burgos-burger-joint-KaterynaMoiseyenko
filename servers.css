@@ -1,0 +1,17 @@
+
+.servers {
+    display: flex;
+    flex-direction: row;
+    background-color: orange;
+    height: 800px;
+
+}
+.servers__h2 {
+    background-color: orange;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.servers__kort {
+    padding-top: 25px;
+}

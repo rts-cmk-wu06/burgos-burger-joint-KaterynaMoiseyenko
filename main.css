@@ -1,0 +1,17 @@
+.container {
+    width: 100%;
+    max-width: 1180px;
+}
+.reklame {
+    display: flex;
+    align-content: center;
+}
+.reklame img {
+    padding-left: 135px;
+}
+.reklame__h2 {
+  color: white;
+  position: relative;
+  top: 0;
+  left: 0;
+}

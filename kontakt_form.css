@@ -1,0 +1,48 @@
+.kontakt {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.kontakt__h2 h2 {
+    font-size: 60px;
+    font-weight: bold;
+}
+.form {
+    padding: 25px;
+}
+.input input{
+    padding: 25px;
+    font-size: 35px;
+    border: 3px solid #2B4356;
+    border-radius: 3px;
+}
+
+.input-error {
+	border-color:  3px solid #e74c3c;
+}
+
+textarea {
+    padding: 25px;
+    font-size: 35px;
+    margin-top: 10px;
+    border: 3px solid #2B4356;
+    border-radius: 3px;
+}
+
+button {
+    border: none;
+    border-radius: 25px;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: orange;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+    width: 290px;
+    height: 100px;
+    margin-left: 685px;
+}
